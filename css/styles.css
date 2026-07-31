@@ -3,7 +3,21 @@
     --titles: #ff8200;
     --textos: #ff8200;
     --secondary: #041e42;
-    --border: #003b00;
+    --border: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    flex: 1;
 }
 
 .menu__logo {
