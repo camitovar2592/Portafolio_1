@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.menu_logo {
+    color: rgb(8, 8, 57);
+    font-weight: bolder;
+}
+
+.menu_list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: rgb(8, 8, 57);
+    font-weight: bold;
+}
+
+.menu_button {
+    background-color: rgb(8, 8, 57);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 57);
+    color: rgb(8, 8, 57);
+    height: 100vh;
+    gap: 30px;
+    flex: 1;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+} 
+
+input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+
+input::placeholder{
+    color: rgb(145, 133, 133);
+}
+
+input:focus{
+    box-shadow: -2px 2px 5px black;
+}
+
+form{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    margin: auto;
+    width: 500px;
+    gap: 25px;
+    font-family: "Google Sans", sans-serif;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: rgb(8, 8, 57);
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.menu_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.logo_footer {
+    font-weight: bolder;
+}
+
+.list_footer {
+    color: darkgray;
+}
