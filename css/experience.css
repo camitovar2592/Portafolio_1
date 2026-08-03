@@ -49,7 +49,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(8, 8, 57);
     color: white;
     height: 100vh;
@@ -58,7 +58,7 @@ main {
 }
 
 .main_img{
-    width: 400px;
+    width: 300px;
     height: auto;
     max-width: 100%;
     display: block;    
@@ -80,11 +80,6 @@ main {
     display: flex;
     font-size: 25px;
     color: bisque;
-}
-
-.experience_test3 {
-    display: flex;
-    font-size: 15px;
 }
 
 footer {
