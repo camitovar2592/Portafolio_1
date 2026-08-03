@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.menu_logo {
+    color: rgb(8, 8, 57);
+    font-weight: bolder;
+}
+
+.menu_list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: rgb(8, 8, 57);
+    font-weight: bold;
+}
+
+.menu_button {
+    background-color: rgb(8, 8, 57);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 57);
+    color: white;
+    height: 100vh;
+    gap: 50px;
+    flex: 1;
+}
+
+.main_img{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    display: block;    
+}
+.experience_tittle {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    color: bisque;
+}
+
+.experience_test1 {
+    font-size: 60px;
+    align-items: center;
+}
+
+.experience_test2 {
+    display: flex;
+    font-size: 25px;
+    color: bisque;
+}
+
+.experience_test3 {
+    display: flex;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(8, 8, 57);
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.menu_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.logo_footer {
+    font-weight: bolder;
+}
+
+.list_footer {
+    color: darkgray;
+}
